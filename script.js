@@ -9,9 +9,9 @@ class Person {
 	{
 		return `my name is ${this.name}`;
 	}
-	set age(age)
+	set ages(value)
 	{
-		this.age=age;
+		this.age=value.age;
 	}
 }
 
