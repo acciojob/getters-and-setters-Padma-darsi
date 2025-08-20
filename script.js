@@ -5,7 +5,7 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
-	get name()
+	get names()
 	{
 		return `my name is ${this.name}`;
 	}
@@ -30,7 +30,7 @@ class Teacher extends Person {
 }
 
 const p1=new person("padma",22);
-p1.name;
+console.log(p1.names);
 person.age=23;
 const s1=new student("sita",22);
 student.study;
